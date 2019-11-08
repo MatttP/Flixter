@@ -1,2 +1,21 @@
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Long+Cang&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
+
+
+.navbar {
+  font-family: 'Long Cang', cursive;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('soft_kill.png');
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Fascinate Inline', cursive;
+  font-weight: 100;
+  color: white
+}
