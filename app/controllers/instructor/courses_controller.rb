@@ -6,6 +6,7 @@ class Instructor::CoursesController < ApplicationController
 
   end
 
+
   def create
     @course = current_user.courses.create(course_params)
     if @course.valid?
@@ -13,7 +14,7 @@ class Instructor::CoursesController < ApplicationController
     else
       render :new, status: :unprocessable_entity
     end
-      
+
   end
 
   def show
