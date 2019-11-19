@@ -1,0 +1,2 @@
+module Insructor::SectionsHelper
+end
