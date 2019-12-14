@@ -28,7 +28,6 @@ gem 'jquery-rails'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'carrierwave', '~> 2.0'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -72,6 +71,7 @@ end
 
 gem 'simple_form'
 gem 'devise'
+gem 'carrierwave', '~> 2.0'
 gem 'figaro'
 gem 'fog-aws'
 gem 'mini_magick'
