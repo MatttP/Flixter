@@ -22,7 +22,7 @@
         <h3 class="badge badge-info">You are enrolled!</h3>
       <% else %>
         <%= link_to 'Enroll', course_enrollments_path(@course), class: 'btn btn-primary', method: :post %>
-        <%= form_tag charges_path do %>
+        <%= form_tag course_enrollments_path(@course) do %>
           <article>
             <% if flash[:error].present? %>
               <div id="error_explanation">
@@ -39,6 +39,7 @@
           data-description="A month's subscription"
           data-amount="500"
           data-locale="auto"></script>
+        <% end %>
       <% end %>
     </div>
 
@@ -68,7 +69,7 @@
             </div>
           <% end %>
         </div>
-        <br class="clear">
+        <br class="clr" />
       </div>
     <% end %>
   </div>
