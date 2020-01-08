@@ -13,6 +13,7 @@ class EnrollmentsController < ApplicationController
       )
       charge = Stripe::Charge.create(
         customer: customer.id,
+        amount: @amount, 
         description: 'Flixter Premo Content',
         currency: 'usd'
       )
@@ -21,7 +22,7 @@ class EnrollmentsController < ApplicationController
   redirect_to course_path(current_course)
   rescue Stripe::CardError => e
     flash[:error] = e.message
-    redirect_to route_path
+    redirect_to root_path
   end
 
   private
