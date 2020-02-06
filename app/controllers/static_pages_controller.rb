@@ -4,5 +4,8 @@ class StaticPagesController < ApplicationController
 
   end
 
+  def privay
+    
+  end
 end
 
