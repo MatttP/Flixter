@@ -36,8 +36,7 @@
   <br class="clr"/>
   <br />
   <div class="text-center">
-    <!--ButtonTriggerModal1-->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newSectionModal">
+    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#newSectionModal">
       Create New Section
     </button>    
   </div>
@@ -49,8 +48,7 @@
           <span class="fa fa-ellipsis-v"></span>
           <%= section.title %>
         </div>
-        <!--ButtonTriggerModal2-->
-        <button type="button" class="btn btn-primary btn-sm float-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%=instructor_section_lessons_path(section)%>">
+        <button type="button" class="btn btn-sm btn-warning float-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%=instructor_section_lessons_path(section)%>">
           Add New Lesson
         </button>
         <br class="clr" />
@@ -63,7 +61,7 @@
                   <br />
                   <span class="fa fa-ellipsis-v"></span>
                 </div>
-                <div class="col-11 text-center">
+                <div class="cordes col-11 text-center">
                   <p>
                     <b><%= lesson.title %></b>
                   </p>

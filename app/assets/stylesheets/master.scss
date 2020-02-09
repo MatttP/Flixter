@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
 
 h1,h3,a,b {
   font-family:'Fascinate Inline',cursive;
@@ -102,12 +103,14 @@ abbr[title] {
 }
 
 .section {
+  background-color: rgba(180, 176, 176, 0.2);
   border:1px solid;
   border-color:#e4e4e4 #bebebd #bebebd #e4e4e4;
   padding:20px;
 }
 
 .section-li {
+  background-color: rgba(180, 176, 176, 0.2);
   border:1px solid;
   border-color:#e4e4e4 #bebebd #bebebd #e4e4e4;
   padding:10px;
@@ -156,13 +159,15 @@ ul .header .fa {
   padding:8px;
 
   p {
+    color: violet;
     margin:0;
   }
 }
 
 .lessons {
   b {
-    font-size: 18px;
+    color: skyblue;
+    font-size: 25px;
     font-weight: 100;
   }
 }
@@ -170,20 +175,24 @@ ul .header .fa {
 .subfooter {
   .sf1 {
     background: rgba(109, 21, 94, 0.62);
-    color: rgb( 61, 2, 2);
+    color: rgb(228, 178, 13);
     margin: 5px;
   }
   .sf2 {
     background: rgba(92, 18, 79, 0.62);
-    color: rgb(61, 2, 2);
+    color: rgb(228, 178, 13);
     margin: 5px;
   }
   .sf3 {
     background: rgba(109, 21, 94, 0.62);
-    color: rgb(61, 2, 2);
+    color: rgb(228, 178, 13);
     margin: 5px;
   }
   h3 {
     color: violet;
   }
+}
+
+.cordes {
+  font-family: "Lemonada", cursive;
 }

@@ -65,27 +65,27 @@
         <div class="col-sm-3">
           <b>Teachers</b>
           <br />
-          <%= link_to 'Teach a Course', new_instructor_course_path %>
+          <%= link_to 'Teach a Course', new_instructor_course_path, {:style=>"color:pink"} %>
           <br />
-          <%=link_to 'My Dashboard', dashboard_path%>
+          <%=link_to 'My Dashboard', dashboard_path, {:style=>"color:pink"}%>
         </div>
         <div class="col-sm-3">
           <b>About</b>
           <br />
-          <%=link_to 'Team', team_path%>
+          <%=link_to 'Team', team_path, {:style=>"color:pink"}%>
           <br />
-          <%=link_to 'Careers', careers_path%>
+          <%=link_to 'Careers', careers_path, {:style=>"color:pink"}%>
           <br />
-          <%=link_to 'Privacy Policy', privacy_path%>
+          <%=link_to 'Privacy Policy', privacy_path, {:style=>"color:pink"}%>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 contact">
           <b>Contact</b>
           <br />
-          contact@email.com
+          School Administration
           <br />
-          Treasure Island
+          <%= link_to 'schoolAdmin@email.com', '#', {:style=>"color:pink"}%>
           <br />
-          FLA
+          Address City, State
         </div>
         <div class="col-sm-3 social">
           <b>Social</b>
