@@ -1,14 +1,17 @@
 html {
   height: 100%;
 }
+
 body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
+
 #flex-content-container {
   flex: 1;
 }
+
 #footer {
   position: relative;
   width: 100%;
@@ -19,14 +22,18 @@ body {
   margin-top: 30px;
   font-weight:100;
 }
+
 #footer a {
   color: white;
   font-family: 'Long Cang', cursive;
   font-weight: 100;
 }
+
 .social-button{
   margin:4px;
 }
+
 .social a:hover{
+  color: pink;
   text-decoration: none;
 }
