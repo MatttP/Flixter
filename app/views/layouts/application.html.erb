@@ -4,12 +4,10 @@
     <title>Flixter</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
   </head>
-
   <body>
     <div id="flex-content-container">
       <nav class="navbar navbar-inverse bg-inverse">
@@ -17,9 +15,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <%= link_to 'Flixter', root_url, class: 'navbar-brand text-center' %>
-
-        <div class="collapse navbar-toggleable-md" id="navbarTogglerDemo02">
-          
+        <div class="collapse navbar-toggleable-md" id="navbarTogglerDemo02">        
           <ul class="nav navbar-nav">
             <li class="nav-item active">
               <%= link_to 'Home', root_url %>
@@ -48,17 +44,14 @@
         </form>
       </div>
     </nav>
-
     <% if notice.present? %>
       <p class="alert alert-info"><%= notice %></p>
     <% end %>
     <% if alert.present? %>
       <p class= "alert alert-danger"><%= alert %></p>
     <% end %>
-
     <%= yield %>
   </div>
-
   <div id="footer">
     <div class="container">
       <div class="row">
@@ -104,9 +97,7 @@
       </div>
     </div>
   </div>
-
   <script src="http://vjs.zencdn.net/5.12.6/video.js"></script>
   <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
   </body>
 </html>
-

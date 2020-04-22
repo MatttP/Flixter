@@ -3,11 +3,13 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+This application is a video streaming marketplace using stripe gem for payment processing.
+
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.5.3
 
-* System dependencies
+* System dependencies: Postgresql, stripe, aws,
 
 * Configuration
 
@@ -20,5 +22,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...

@@ -1,9 +1,7 @@
 <br />
-
 <div class="booyah-box col-10 offset-1">
   <h1 class="text-center">Follow your curiosity!</h1>
   <hr />
-
   <% @courses.each do |course| %>
     <h2 class="text-center">
       <%= link_to course.title, course_path(course), {:style=>"color:violet"} %>

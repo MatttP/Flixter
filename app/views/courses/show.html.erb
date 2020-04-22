@@ -1,5 +1,4 @@
 <br/>
-
 <div class="booyah-box col-10 offset-1">
   <h1><%= @course.title %></h1>
   <%= image_tag @course.image.to_s, class: 'img-fluid' %>
@@ -37,12 +36,10 @@
         <h3 class="badge badge-info">Sign In to Enroll!</h3>
       <% end %>
     </div>
-
     <div class="col-sm-8 col-12 cordes">
       <%= @course.description %>
     </div>
   </div>
-
   <div class="col-12">
     <% @course.sections.rank(:row_order).each do |section| %>
     <br /><br >

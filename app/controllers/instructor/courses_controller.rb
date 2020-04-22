@@ -6,8 +6,6 @@ class Instructor::CoursesController < ApplicationController
     @course = Course.new
     @lesson = Lesson.new
   end
-
-
   def create
     @course = current_user.courses.create(course_params)
     if @course.valid?
@@ -15,9 +13,7 @@ class Instructor::CoursesController < ApplicationController
     else
       render :new, status: :unprocessable_entity
     end
-
   end
-
   def show
     @section=Section.new
     @lesson=Lesson.new
@@ -30,15 +26,11 @@ class Instructor::CoursesController < ApplicationController
       render plain: "Unauthorized", status: :unauthorized
     end
   end
-
   helper_method :current_course
   def current_course
     @current_course ||= Course.find(params[:id])
   end
-
   def course_params
     params.require(:course).permit(:title, :description, :cost, :image)
   end
-
 end
-
