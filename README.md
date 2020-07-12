@@ -8,6 +8,8 @@ On the homepage click "Learn More" to advance to courses index,
 
 In the top navigation menu a user can sign in, access user dashboard and lessons, (search bar inactive currently)
 
+![Top nav menu.png] (./app/assets/images/Top nav menu.png)
+
 In the courses index select course name or click on "more details" to view individual course lessons,
 
 On the course page user can enroll and pay for lessons using STRIPE payment gem,
