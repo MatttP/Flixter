@@ -1,7 +1,7 @@
 # README
 
 On the homepage click learn more to advance to courses index,
-
+![Homepage.png](./app/assets/images/Homepage.png)
 In the top navigation menu a user can sign in, access user dashboard and lessons, (search bar inactive currently)
 
 In the courses index select course name or click on "more details" to view individual course lessons,
