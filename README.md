@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+On the homepage click learn more to advance to courses index,
 
-This application is a video streaming marketplace using stripe gem for payment processing.
+In the top navigation menu a user can sign in, access user dashboard and lessons, (search bar inactive currently)
 
-Things you may want to cover:
+In the courses index select course name or click on "more details" to view individual course lessons,
 
-* Ruby version 2.5.3
+On the course page user can enroll and pay for lessons using STRIPE payment gem,
 
-* System dependencies: Postgresql, stripe, aws,
+Clicking on lessons brings the user to specific lesson page with video, (carrierwave)
 
-* Configuration
+User dashboard shows what courses user added and/or is enrolled in,
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+Footer hosts links to adding a course, accessing user dashboard, different about pages, contact info and social media links,
