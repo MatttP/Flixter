@@ -17,25 +17,22 @@
         <%= link_to 'Flixter', root_url, class: 'navbar-brand text-center' %>
         <div class="collapse navbar-toggleable-md" id="navbarTogglerDemo02">        
           <ul class="nav navbar-nav float-lg-left">
+          <br />
             <li class="nav-item active">
               <%= link_to 'Home', root_url %>
             </li>
-            <br />
             <li class="nav-item">
               <%= link_to 'See courses', courses_path, class: 'nav-link' %>
             </li>
-            <br />
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-            <br />
           </ul>
           <ul class="nav navbar-nav float-lg-left">
             <% if user_signed_in? %>
               <li class="nav-item">
                 <%= link_to 'My Dashboard',dashboard_path, class:'nav-link'%>
               </li>
-              <br />
               <li class="nav-item"><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
             <% else %>
               <li class="nav-item"><%= link_to 'Sign in', new_user_session_path %></li>
