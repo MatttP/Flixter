@@ -1,4 +1,5 @@
 # Flixter - README
+This application is an online video marketplace. Can also be used to structure educatoinal courses with multiple sections. Has user authentication using Devise, accepts card payments using Stripe,
 
 ## Home page :
 On the homepage click "Learn More" to advance to courses index,
