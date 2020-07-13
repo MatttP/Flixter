@@ -2,13 +2,13 @@
 This application is an online video marketplace. Can also be used to structure educatoinal courses with multiple sections. Has user authentication using Devise, accepts card payments using Stripe,
 
 ## Home page :
-On the homepage click "Learn More" to advance to courses index,
-* [Flixter] (https://flixter-matt-parr.herokuapp.com/)
+On the homepage click "Learn More" to advance to courses index. Flixter title in top center will take user back to home screen when clicked.
+Flixter https://flixter-matt-parr.herokuapp.com/)
 
 ![Homepage.png](./app/assets/images/Homepage.png)
 
-In the top navigation menu (click box in upper left) a user can sign in, access user dashboard and lessons, (search bar inactive currently)
-* [Home] (https://flixter-matt-parr.herokuapp.com/)
+To open the top navigation click the box in the upper left corner. In the top navigation menu a user can sign in, access user dashboard and lessons, (search bar inactive currently)
+Flixter Home https://flixter-matt-parr.herokuapp.com/
 
 ![Top nav menu.png] (./app/assets/images/Top nav menu.png)
 
