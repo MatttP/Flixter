@@ -15,7 +15,7 @@ Flixter Home https://flixter-matt-parr.herokuapp.com/
 In the courses index select course name or click on "more details" to view individual course lessons,
 Courses https://flixter-matt-parr.herokuapp.com/courses
 
-![Courses Index.png](./app/assets/images/Courses Index.png?raw=true)
+![Courses Index.png](./app/assets/images/Courses Index.png)
 
 On the course page user can enroll and pay for lessons using * [Stripe] (stripe.com) payment processing. Imported with Ruby 'stripe gem',
 Paymeny processing is currently in 'test mode' so no real transactions can be done. (test card no. 4242 4242 4242 4242, exp date: any after today,
