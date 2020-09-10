@@ -10,20 +10,20 @@ Flixter https://flixter-matt-parr.herokuapp.com/)
 To open the top navigation click the box in the upper left corner. In the top navigation menu a user can sign in, access user dashboard and lessons, (search bar inactive currently)
 Flixter Home https://flixter-matt-parr.herokuapp.com/
 
-![Top nav menu.png] (./app/assets/images/Top nav menu.png)
+![Top nav menu.png](./app/assets/images/Top nav menu.png)
 
 In the courses index select course name or click on "more details" to view individual course lessons,
 Courses https://flixter-matt-parr.herokuapp.com/courses
 
-![Courses Index.png] (./app/assets/images/Courses Index.png?raw=true)
+![Courses Index.png](./app/assets/images/Courses Index.png?raw=true)
 
 On the course page user can enroll and pay for lessons using * [Stripe] (stripe.com) payment processing. Imported with Ruby 'stripe gem',
 Paymeny processing is currently in 'test mode' so no real transactions can be done. (test card no. 4242 4242 4242 4242, exp date: any after today,
 cvc: any 3 digits) Payment will enroll student into course.
 
-![Enroll.png] (./app/assets/images/Enroll.png)
+![Enroll.png](./app/assets/images/Enroll.png)
 
-![PayWithCard.png] (./app/assets/images/PayWithCard.png)
+![PayWithCard.png](./app/assets/images/PayWithCard.png)
 
 Clicking on lessons brings the user to specific lesson page with video, (carrierwave)
 
